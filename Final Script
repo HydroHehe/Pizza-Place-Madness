@@ -1,0 +1,15 @@
+local madness =
+https://raw.githubusercontent.com/HydroHehe/Pizza-Place-Madness/main/Madness%20on
+
+local stop =
+https://raw.githubusercontent.com/HydroHehe/Pizza-Place-Madness/main/Madness%20off
+
+workspace.Main.Chatted.Chatted.Event:Connect(function(msg)
+if msg=="!mad"
+then
+madness()
+if msg=="!stop"
+then
+stop()
+end
+end)
